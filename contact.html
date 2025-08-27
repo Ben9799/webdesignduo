@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt | Webdesign-Duo</title><meta name="description" content="Kontakt aufnehmen – unverbindlich anfragen. Rosenheim & Großkarolinenfeld.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header"><div class="container nav-wrap">
+<a href="index.html" class="brand"><span class="logo-dot"></span><span class="brand-name">webdesign<span class="accent">duo</span></span></a>
+<nav id="site-nav" class="nav"><a href="index.html">Home</a><a href="about.html">Über uns</a><a href="offer.html">Leistungen</a><a href="work.html">Referenzen</a><a href="contact.html">Kontakt</a></nav>
+<button id="burger" class="burger" aria-label="Menü umschalten" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+</div></header>
+
+<section id="contact" class="contact section"><div class="container grid-2">
+<div><h2 class="section-title">Kontakt aufnehmen</h2><p class="section-subtitle">Unverbindlich anfragen – wir antworten schnell.</p>
+<ul class="contact-list"><li><strong>E-Mail:</strong> <a href="mailto:hello@webdesignduo.example">hello@webdesignduo.example</a></li>
+<li><strong>Telefon:</strong> <a href="tel:+4915112345678">+49 151 12345678</a></li><li><strong>Standort:</strong> Großkarolinenfeld & Rosenheim</li></ul>
+<div class="map-embed card lift" style="margin-top:16px;"><iframe title="Standortkarte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.353287927846!2d12.119!3d47.856" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div>
+<form class="card lift contact-form" id="contactForm" method="POST" action="mailto:hello@webdesignduo.example" enctype="text/plain">
+<label for="name">Name</label><input id="name" name="name" type="text" placeholder="Ihr Name" required>
+<label for="email">E‑Mail</label><input id="email" name="email" type="email" placeholder="ihre@mail.de" required>
+<label for="message">Nachricht</label><textarea id="message" name="message" placeholder="Beschreiben Sie kurz Ihr Projekt…" rows="5" required></textarea>
+<button type="submit" class="btn primary full">Nachricht senden</button><p class="tiny muted">Tipp: Für ein echtes Formular ohne Mail-App richten Sie später z. B. Formspree oder Netlify Forms ein.</p>
+</form></div></section>
+
+<footer class="site-footer"><div class="container footer-grid"><p>© <span id="year"></span> webdesignduo — Bence & Partnerin. Alle Rechte vorbehalten.</p>
+<nav class="footer-nav"><a href="index.html">Home</a><a href="about.html">Über uns</a><a href="offer.html">Leistung</a><a href="work.html">Referenzen</a><a href="contact.html">Kontakt</a></nav>
+</div></footer><script src="script.js"></script></body></html>
